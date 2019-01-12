@@ -7,12 +7,12 @@ let min = 1,
 
 // UI Elements
 
-const game = document.querySelector('#game'),
-    minNum = document.querySelector('.min-num'),
-    maxNum = document.querySelector('.max-num'),
-    guessBtn = document.querySelector('#guess-btn'),
-    guessInput = document.querySelector('#guess-input'),
-    message = document.querySelector('.message');
+    const game = document.querySelector('#game'),
+        minNum = document.querySelector('.min-num'),
+        maxNum = document.querySelector('.max-num'),
+        guessBtn = document.querySelector('#guess-btn'),
+        guessInput = document.querySelector('#guess-input'),
+        message = document.querySelector('.message');
 
 //Assign UI min and max
 
